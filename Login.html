@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login.html</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Background Video -->
+    <div class="position-fixed top-0 start-0 w-100 h-100 overflow-hidden">
+        <video autoplay loop muted class="w-100 h-100 object-fit-cover">
+            <source src="animaction-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Centered Card with Form -->
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-4 shadow-lg" style="width: 30rem; backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); border-top: #33ffe9">
+            <div class="card-body">
+                <h3 class="text-center mb-4">Login Form</h3>
+
+                <div>
+                    <label for="validationServer01" class="form-label"> 👤 First name</label>
+                    <input type="text" class="form-control" id="validationServer01" required>
+                    <div class="valid-feedback">Looks good!</div>
+                </div>
+
+                <div>
+                    <label for="validationServer02" class="form-label"> 👤 Last name</label>
+                    <input type="text" class="form-control" id="validationServer02"  required>
+                    <div class="valid-feedback">Looks good!</div>
+                </div>
+
+                <div>
+                    <div class="mb-3">
+                        <label for="inputEmail3" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail3" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="validationServer03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationServer03" required>
+                    <div class="invalid-feedback">Please provide a valid city.</div>
+                </div>
+
+                <div>
+                    <label for="validationServer04" class="form-label">State</label>
+                    <select class="form-select" id="validationServer04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Uttarakhand</option>
+                        <option>West Bengal</option>
+                    </select>
+                    <div class="invalid-feedback">Please select a valid state.</div>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" id="invalidCheck3" required>
+                    <label class="form-check-label" for="invalidCheck3">Agree to terms and conditions</label>
+                    
+                </div>
+
+                <div class="text-center mt-3">
+                    <button class="btn btn-primary w-100" type="submit">Submit Form</button>
+                </div>
+                <div>
+                    <b>I have alrady account   </b><span><a href="SignUP.html"> <button type="button" class="btn btn-outline-success btn-lg">🚀 Login</button></a></span>
+                   </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
